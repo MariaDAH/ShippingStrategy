@@ -1,0 +1,14 @@
+[
+	{
+	  "CustomerId": 1,
+	  "CartId": 2,
+	  "ServiceName": "F",
+	  "Quantity": 1
+	},
+	{
+	  "CustomerId": 1,
+	  "CartId": 2,
+	  "ServiceName": "C",
+	  "Quantity": 1
+	}
+]
