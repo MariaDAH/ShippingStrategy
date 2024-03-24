@@ -21,7 +21,7 @@ public class CheckoutService(ICustomerService customerService,
         if (customer is null)
         {
             //ToDo: Make custom exception
-            throw new Exception("Customer doesn't exit");
+            throw new Exception("Customer doesn't exist");
         }
         var cart = await repoCart.GetByIdAsync(purchase.CartId)!;
         if (cart is null)
