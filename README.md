@@ -4,7 +4,8 @@
 ### Example scenarios
 
 Examples Illustrating Discount Application
-Example 1: Multipurchase Discount Advantage
+
+* Example 1: Multipurchase Discount Advantage
 
 Customer's Cart: 2 x Service B
 Standard Pricing: £12 each
@@ -12,14 +13,16 @@ Special Offer for B: 2 for £20
 Total without discount: 2 x £12 = £24
 With multipurchase discount: £20
 Decision: The system applies the multipurchase discount, totaling £20, as it offers better savings.
-Example 2: No Multipurchase Discount
+
+* Example 2: No Multipurchase Discount
 
 Customer's Cart: 1 x Service F and 1 x Service C
 Standard Pricing: Service F at £8 and Service C at £15
 No applicable multipurchase discount.
 Total without discount: £8 + £15 = £23
 Decision: The system calculates the total as £23 due to no available multipurchase discounts.
-Example 3: Mix of Discounts and No Discount
+
+* Example 3: Mix of Discounts and No Discount
 
 Customer's Cart: 2 x Service F, 1 x Service B
 Standard Pricing: F @ £8 each, B @ £12 each
